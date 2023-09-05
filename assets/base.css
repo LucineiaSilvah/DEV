@@ -54,9 +54,7 @@ z-index: 3;
 visibility: hidden;
 
 }
-.fa-eclipse{
 
-}
 @keyframes subir {
   0%{
    transform: translateY(-15px);
