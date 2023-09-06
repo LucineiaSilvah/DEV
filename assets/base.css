@@ -19,6 +19,7 @@ body{
   width: 100%;
  overflow-x: hidden;
   text-transform: capitalize;
+<<<<<<< HEAD
   background-color:var(--bgDark) ;
   color:var(--white) ;
   
@@ -30,6 +31,9 @@ body{
 .botaoMode{
       background-color:var(--bgDark) ;
      color: var(--white);
+=======
+
+>>>>>>> c16e4f2 (adicionando icone)
 }
 .botao{
   display: block;
@@ -50,7 +54,9 @@ z-index: 3;
 visibility: hidden;
 
 }
+.fa-eclipse{
 
+}
 @keyframes subir {
   0%{
    transform: translateY(-15px);
