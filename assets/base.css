@@ -1,6 +1,7 @@
 :root{
   --bgDark : #0e0e0e;
   --white : #fff;
+  --ligth : #fcf9f9;
 }
 *{
   margin: 0;
@@ -11,19 +12,21 @@
 }
 
 body{
-  background-color:var(--bgDark) ;
-  color: var(--white);
-  font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', sans-serif;
 }
 .container{
   width: 100%;
  overflow-x: hidden;
   text-transform: capitalize;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 892cd72 (adicioando mode white)
   background-color:var(--bgDark) ;
   color:var(--white) ;
   
 }
+<<<<<<< HEAD
 .white{
    background-color:var(--white) ;
    color: var(--bgDark); 
@@ -34,6 +37,16 @@ body{
 =======
 
 >>>>>>> c16e4f2 (adicionando icone)
+=======
+
+.white{
+   background-color:var(--ligth) ;
+   color: var(--bgDark); 
+}
+.botaoMode{
+      background-color:var(--bgDark) ;
+     color: var(--white);
+>>>>>>> 892cd72 (adicioando mode white)
 }
 .botao{
   display: block;

@@ -7,9 +7,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: var(--white);
 
 }
+
 .chamada__titulo{
   font-size: 3rem;
   font-weight: 700;
@@ -40,13 +40,14 @@ left: 5%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: var(--white);
+
   
   
   }
   .chamada__titulo{
     font-size: 2rem;
     font-weight: 700;
+    
   }
   .chamada__texto{
     padding: 1rem;
@@ -80,10 +81,7 @@ left: 5%;
   .botao--chamada:hover{
    box-shadow: 2px 4px 6px #377DFF40 ;
   }
-  .el-89{
-
-  
-  }
+ 
   .el-90{
   position: absolute;
   top: 34%;
