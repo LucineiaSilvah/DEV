@@ -70,8 +70,8 @@ justify-content: center;
   }
   .time .el-88{
     position: absolute;
-    bottom: 35%;
-    left: 2%;
+    bottom: 0%;
+    left: 1%;
     transform: scale(0.7);
   }
   .time .el-33{
@@ -91,6 +91,9 @@ justify-content: center;
     bottom: 10%;
     right:10%;
     width: 110px;
+  }
+  .el-90 , .el-89{
+    visibility: hidden;
   }
 }
 @media screen and (min-width:768px) {
@@ -120,10 +123,11 @@ justify-content: center;
   .time .el-88{
     position: absolute;
     bottom: 35%;
-    left: 0;
+    left: 2%;
   
     transform: scale(1);
   }
+
   .time .el-33{
     position: absolute;
    top: 5%;
@@ -143,6 +147,9 @@ justify-content: center;
   }
   .time__imagem{
     width: initial;
+  }
+  .el-90 , .el-89{
+    visibility: visible;
   }
 }
 

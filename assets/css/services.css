@@ -31,21 +31,10 @@
 .services__card span{
   margin:1rem 0 ;
   padding: 1rem;
-  background-color: red;
+  background-color:var(--white);
   border-radius: 50%;
-  
+  border: 1px solid black;
 }
-span:first-child{
- 
-  background: rgb(223, 155, 247);
-
-}
-span:last-child{
- 
-  background: rgb(145, 139, 11);
-
-}
-
 .card{
   width: 150px;
   height: 150px;
