@@ -17,3 +17,23 @@ botao.addEventListener('click',()=>{
     top:0
   })
 })
+
+let menu = document.querySelector('.fa-bars');
+menu.addEventListener('click', ()=>{
+  let menuLista = document.querySelector('.menu__lista')
+  menuLista.classList.toggle('mostrarMenu');
+  
+})
+
+let modo = document.getElementById('mode')
+ 
+   modo.addEventListener('click', ()=> {
+   document.querySelector('.container').classList.toggle('white')
+
+  
+
+
+
+ })
+ 
+ 

@@ -18,15 +18,12 @@ font-family: 'Quicksand', sans-serif;
   width: 100%;
  overflow-x: hidden;
   text-transform: capitalize;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 892cd72 (adicioando mode white)
+
   background-color:var(--bgDark) ;
   color:var(--white) ;
   
 }
-<<<<<<< HEAD
+
 .white{
    background-color:var(--white) ;
    color: var(--bgDark); 
@@ -34,10 +31,9 @@ font-family: 'Quicksand', sans-serif;
 .botaoMode{
       background-color:var(--bgDark) ;
      color: var(--white);
-=======
 
->>>>>>> c16e4f2 (adicionando icone)
-=======
+
+}
 
 .white{
    background-color:var(--ligth) ;
@@ -46,7 +42,7 @@ font-family: 'Quicksand', sans-serif;
 .botaoMode{
       background-color:var(--bgDark) ;
      color: var(--white);
->>>>>>> 892cd72 (adicioando mode white)
+
 }
 .botao{
   display: block;
