@@ -1,0 +1,93 @@
+.services{
+  display: flex;
+  font-size: 2rem;
+ 
+}
+.services__texto{
+  width: 45%;
+}
+.services__texto p {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+.services__texto a{
+  color: var(--white);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+  gap: 10px;
+  padding: 1rem;
+}
+.services__card{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+.services__card span{
+  margin:1rem 0 ;
+  padding: 1rem;
+  background-color: red;
+  border-radius: 50%;
+  
+}
+span:first-child{
+ 
+  background: rgb(223, 155, 247);
+
+}
+span:last-child{
+ 
+  background: rgb(145, 139, 11);
+
+}
+
+.card{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid rgb(95, 86, 86);
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+
+}
+
+@media screen and (min-width:0) {
+  .services{
+    flex-direction: column;
+    font-size: 1.4rem;
+  }
+  .services__texto{
+    width: 80%;
+    margin: auto;
+  }
+  .services__texto a{
+    justify-content: flex-start;
+  }
+  .services__card{
+margin: auto;
+  }
+}
+@media screen and (min-width:768px) {
+  .services{
+    flex-direction: row;
+    font-size: 2rem;
+  }
+  .services__texto{
+    width: 40%;
+  }
+  .services__texto a{
+    justify-content: flex-end;
+  }
+  .services__card .card{
+  width: calc(33%);
+  }
+}

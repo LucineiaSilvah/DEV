@@ -1,0 +1,85 @@
+.testemunhos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  padding: 7rem 0;
+}
+.testemunhos p{
+  font-size: 1rem;
+}
+.testemunho__card{
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content:space-around;
+  position: relative;
+}
+.cards{
+  width: 200px;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #0B0F15;
+  box-shadow: 2px 2px 5px #81a8e2;
+  color:white;
+
+}
+
+.cards--top{
+  display: flex;
+align-items: center;
+gap: 20px;    
+ 
+}
+.description p+p{
+  font-size:.6rem ;
+}
+.test-1{
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.test-2{
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+}
+
+@media screen and (min-width:0) {
+  .testemunhos{
+    font-size: 1.4rem;
+   padding: 3rem 0;
+  }
+  .testemunhos h1{
+    
+    text-align: center;
+    
+  }
+  .cards.c2,.cards.c3{
+  display: none;
+  }
+ .testemunho__card{
+  flex-direction: column;
+
+ }
+ .test-1,.test-2{
+  display: none;
+  
+}
+ 
+}
+@media screen and (min-width:768px) {
+  .cards.c2,.cards.c3{
+    display: block;
+    }
+    .testemunho__card{
+      flex-direction: row;
+      
+     }
+     .test-1,.test-2{
+      display: flex;
+      
+    }
+}
